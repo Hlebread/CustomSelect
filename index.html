@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CustomSelect.css" />
+    <script src="./CustomSelect.js"></script>
+    <style>
+      .test {
+        display: flex;
+      }
+      .test > div {
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test">
+      <div>
+        <select class="ozitag" data-title="Реализуемые товары">
+          <option value="0" selected>Ковры и ковровые изделия</option>
+          <option value="1">Ковры и ковровые изделия</option>
+          <option value="2" selected>Легковые пассажирские автомобили</option>
+          <option value="3">Напольные покрытия(кроме ковров)</option>
+          <option value="4">
+            Оборудование и инструменты для садов и парков, включая газонокосилки
+          </option>
+          <option value="5">Шелковые ткани</option>
+        </select>
+      </div>
+      <div>
+        <select class="ozitag" multiple data-title="Тестовое название">
+          <option value="0">Товар с необычным названием</option>
+          <option value="1">Что-то с чем-то</option>
+          <option value="2">Восхитительное нечто</option>
+          <option value="3">Ещё один вариант</option>
+          <option value="4">Лыжи на зиму</option>
+          <option value="5">Уже сложно придумать</option>
+          <option value="6">Конфета</option>
+          <option value="7">Боковой фен</option>
+        </select>
+      </div>
+    </div>
+
+    <select class="ozitag" multiple>
+      <option value="0">Вариант 0</option>
+      <option value="1">Вариант 1</option>
+      <option value="2" selected>Вариант 2</option>
+      <option value="3">Вариант 3</option>
+      <option value="4">Вариант 4</option>
+      <option value="5" selected>Вариант 5</option>
+      <option value="6">Вариант 6</option>
+      <option value="7">Вариант 7</option>
+      <option value="8">Вариант 8</option>
+      <option value="9">Вариант 9</option>
+      <option value="11">Вариант 11</option>
+      <option value="22">Вариант 22</option>
+      <option value="33">Вариант 33</option>
+      <option value="44">Вариант 44</option>
+      <option value="55">Вариант 55</option>
+      <option value="66" selected>Вариант 66</option>
+      <option value="77">Вариант 77</option>
+      <option value="88" selected>Вариант 88</option>
+    </select>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
