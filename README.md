@@ -12,4 +12,4 @@ Custom Select
 
 ### Description
 
-This is a module that searches the page for all selects with the specified parameters and replaces them with custom ones. Custom selects have the possibility of multiple choice regardless of the "multiple" attribute of the original select, their own title and the ability to respond to the "change" event
+This is a module that searches the page for all selects with the specified parameters and replaces them with custom ones. Also, you can independently pass a single select or an array of those as an argument, which needs to be turned into a custom one. Custom selects have the possibility of multiple choice regardless of the "multiple" attribute of the original select, their own title and the ability to respond to the "change" event

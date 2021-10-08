@@ -248,13 +248,15 @@ const CustomSelect = (function () {
 	}
 
 	return {
-		init: function () {
-			document.querySelectorAll(".ozitag").forEach((select) => {
-				const moduleView = new View();
-				const moduleModel = new Model();
-				const moduleController = new Controller();
-				moduleController.init(select, moduleModel, moduleView);
-			});
+		init: function (...target) {
+			(target.length ? target : document.querySelectorAll(".ozitag")).forEach(
+				(select) => {
+					const moduleView = new View();
+					const moduleModel = new Model();
+					const moduleController = new Controller();
+					moduleController.init(select, moduleModel, moduleView);
+				}
+			);
 		},
 	};
 })();

@@ -11,6 +11,6 @@ selects.forEach((select) => {
 		[...select.options].forEach((o) => {
 			if (o.getAttribute("selected")) result.push(o.value);
 		});
-		if (result) alert("Выбранные опции: " + result.join(", "));
+		if (result) alert(`Демонстрация обработчика "change"\n\nВыбранные опции: ${result.join(", ")}`);
 	});
 });
