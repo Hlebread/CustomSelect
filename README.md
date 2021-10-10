@@ -7,7 +7,7 @@ Custom Select
 - add ```<script src="./CustomSelect.js"></script>``` to your .html
 - add ```class="ozitag"``` to all ```"select"``` tags you want to make custom
 - add ```data-title="<Your title>"``` to all ```"select"``` tags you want to have individual title
-- add ```new CustomSelect.init()``` to your .js
+- add ```CustomSelect.init()``` to your .js
 - open ```Browser :)```
 
 ### Description

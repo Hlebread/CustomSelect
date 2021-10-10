@@ -1,4 +1,4 @@
-new CustomSelect.init();
+CustomSelect.init();
 
 /*
 	The code below is given to demonstrate the possibility of binding an event listener "change" to a select
